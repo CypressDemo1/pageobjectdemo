@@ -7,6 +7,8 @@ If the CSS or other aspect of the page changes then likely only one page object 
 
 To run the one test named 'test1', do the following:
 * Install Node.js from here: https://nodejs.org/en/download/
+* Install TypeScript
+   - npm install typescript --save-dev
 * Install Cypress from here https://docs.cypress.io/guides/getting-started/installing-cypress:
    - cd /your/project/path
    - npm install cypress --save-dev
