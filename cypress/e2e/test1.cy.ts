@@ -16,4 +16,13 @@ describe('example to-do app', () => {
         .header.toHelp()
         .header.toSignIn()
     })
+  
+    it('Test footer navigation', () => {
+        let home=new HomePage()
+        home
+        .footer.toAbout()
+        .footer.toHelp()
+        .footer.toContact()
+        .footer.toFeedback()
+    })
 })

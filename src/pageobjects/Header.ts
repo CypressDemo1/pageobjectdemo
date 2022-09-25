@@ -1,12 +1,29 @@
 import { HomePage } from "./HomePage"
 import { NavPage } from "./NavPage"
 
-const homeLink = '.cmp-custom-header__link-container > a[href*="/content/mygov/en"]'
+const homeLink = '.cmp-custom-header__list-upper-active'
 const browseLink = '.cmp-custom-header__link-container a[href*="services.html"]'
-const searchLink = '.cmp-custom-header__link-container > a[href*="search.html"]'
-const signInLink = 'div[.sign-in-btn]'
-const createAccountLink = '.cmp-custom-header__link-container > a[href*="create-account"]'
-const helpLink = '.cmp-custom-header__link-container > a[href*="help"]'
+const searchLink = '.search-link'
+const signInLink = '.sign-in-btn > span'
+const createAccountLink = '.cmp-custom-header__list-lower a[href*="create-account"]'
+const helpLink = '.cmp-custom-header__list-lower a[href*="help"]'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 export class Header {
     
