@@ -11,39 +11,40 @@ describe('example to-do app', () => {
     it('Test header navigation', () => {
         let home=new HomePage()
         home
-        .header.toHome()
-        .header.toBrowse()
-        .header.toSearch()
-        .header.tocreateAccount()
-        .header.toHelp()
-        .header.toSignIn()
+        .header.goToHome()
+        .header.goToBrowse()
+        .header.goToSearch()
+        .header.goTocreateAccount()
+        .header.goToHelp()
+        .header.goToSignIn()
+
     })
   
     it('Test footer navigation', () => {
         let home=new HomePage()
         home
-        .footer.toAbout()
-        .footer.toHelp()
-        .footer.toContact()
+        .footer.goToAbout()
+        .footer.goToHelp()
+        .footer.goToContact()
         // .footer.toFeedback()
     })
   
     it('Test top navigator', () => {
         let home=new HomePage()
         home
-        .header.toBrowse()
-        .topNav.toRaisingKids()
-        .topNav.toLivingArrangements()
-        .topNav.toAgeing()
-        .topNav.toWork()
-        .topNav.toEducation()
-        .topNav.toHealthAndDisability()
+        .header.goToBrowse()
+        .topNav.goToRaisingKids()
+        .topNav.goToLivingArrangements()
+        .topNav.goToAgeing()
+        .topNav.goToWork()
+        .topNav.goToEducation()
+        .topNav.goToHealthAndDisability()
     })
   
     it('Search for accessibility', () => {
       let home=new HomePage()
         home
-        .header.toSearch()
+        .header.goToSearch()
         .searchFor("accessibility")
         .hasResult("Accessibility")
         // .goToResult("Access")

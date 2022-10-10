@@ -9,32 +9,32 @@ const healthanddisabilityLink = '.top-navigation-bar__item  a[href*="health-and-
 
 export class TopNavBar {
     
-    toRaisingKids(): NavPage {
+    goToRaisingKids(): NavPage {
         cy.get(raisingkidsLink).click()
         return new NavPage()
     }
     
-    toLivingArrangements(): NavPage {
+    goToLivingArrangements(): NavPage {
         cy.get(livingarrngementsLink).click()
         return new NavPage()
     }
     
-    toAgeing(): NavPage {
+    goToAgeing(): NavPage {
         cy.get(ageingLink).click()
         return new NavPage()
     }
     
-    toWork(): NavPage {
+    goToWork(): NavPage {
         cy.get(workLink).click()
         return new NavPage()
     }
     
-    toEducation(): NavPage {
+    goToEducation(): NavPage {
         cy.get(educationLink).click()
         return new NavPage()
     }
     
-    toHealthAndDisability(): NavPage {
+    goToHealthAndDisability(): NavPage {
         cy.get(healthanddisabilityLink).click()
         return new NavPage()
     }

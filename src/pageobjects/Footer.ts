@@ -9,22 +9,22 @@ const feedbackLink = '.cmp-custom-footer__column__list  a[href*="feedback.html"]
 
 export class Footer {
 
-    toAbout(): NavPage {
+    goToAbout(): NavPage {
         cy.get(aboutLink).click()
         return new NavPage()
     }
 
-    toHelp(): NavPage {
+    goToHelp(): NavPage {
         cy.get(helpLink).click()
         return new NavPage()
     }
 
-    toContact(): NavPage {
+    goToContact(): NavPage {
         cy.get(contactLink).click()
         return new NavPage()
     }
 
-    toFeedback(): NavPage {
+    goToFeedback(): NavPage {
         cy.get(feedbackLink).click()
         return new NavPage()
     }

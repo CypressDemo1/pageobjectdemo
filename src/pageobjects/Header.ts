@@ -11,32 +11,32 @@ const helpLink = '.cmp-custom-header__list-lower a[href*="help"]'
 
 export class Header {
     
-    toHome(): HomePage {
+    goToHome(): HomePage {
         cy.get(homeLink).click()
         return new HomePage()
     }
     
-    toBrowse(): NavPage {
+    goToBrowse(): NavPage {
         cy.get(browseLink).click()
         return new NavPage()
     }
     
-    toSearch(): SearchPage {
+    goToSearch(): SearchPage {
         cy.get(searchLink).click()
         return new SearchPage()
     }
     
-    toSignIn(): NavPage {
+    goToSignIn(): NavPage {
         cy.get(signInLink).click()
         return new NavPage()
     }
     
-    tocreateAccount(): NavPage {
+    goTocreateAccount(): NavPage {
         cy.get(createAccountLink).click()
         return new NavPage()
     }
     
-    toHelp(): NavPage {
+    goToHelp(): NavPage {
         cy.get(helpLink).click()
         return new NavPage()
     }

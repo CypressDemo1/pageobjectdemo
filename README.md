@@ -17,7 +17,7 @@ To run the one test named 'test1', do the following:
    - Choose the Testing Type 'E2E' by clicking 'Not Configured' and then accept the default config
    - Choose a browser
 * Run the test 'test1' at the bottom of the list of tests
-
+* npx cypress --version
 
 The test does not do much, it goes to every linked page in the header navigation, in the footer navigation and the top navigator navigation.
 It then starts at the home page and searches for the word 'access' in the search page and confirms it finds the 'Accessibility' page in the results 
